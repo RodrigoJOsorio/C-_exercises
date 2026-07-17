@@ -14,7 +14,70 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+
+
+# Build results - Compiled binaries and intermediate output files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# User-specific files - Visual Studio user settings and cache
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio workspace - Local IDE configuration and cache
+.vs/
+
+# Visual Studio Code - Editor settings (keep specific config files if needed)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NuGet packages - Restored dependencies (not needed in source control)
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Test results - Generated reports from test runs
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+TestResult.xml
+
+# Log and temporary files - Build logs and system temp files
+*.log
+*.tmp
+*.bak
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# System files - OS-specific metadata files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and secrets - Sensitive configuration data
+.env
+*.pfx
+*.publishsettings
+appsettings*.json
+launchSettings*.json   
+
+
+
 # Mono auto generated files
+
+
+
+
 mono_crash.*
 
 # Build results
